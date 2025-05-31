@@ -1,5 +1,6 @@
-import Image from "next/image";
 
+import Image from "next/image";
+import {ChartComponent, PieChartComponent} from "./components/DataVisualizationTool";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-gray-50 p-8">
@@ -76,6 +77,14 @@ export default function Home() {
             <button className="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600 transition">File a Claim</button>
           </div>
         </section>
+      </div>
+      <div className="w-full max-w-4xl bg-white rounded-xl shadow-md p-8 mt-8">
+        <h2 className="text-xl font-semibold mb-4">Data Visualization</h2>
+        <ChartComponent />
+      </div>
+      <div className="w-full max-w-4xl bg-white rounded-xl shadow-md p-8 mt-8">
+        <h2 className="text-xl font-semibold mb-4">Pie Chart Example</h2>
+        <PieChartComponent /> 
       </div>
     </main>
   );

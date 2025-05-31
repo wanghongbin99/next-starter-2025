@@ -14,9 +14,13 @@
     "publish": true
   },
   "dependencies": {
+    "chart.js": "^4.4.9",
+    "font-awesome": "^4.7.0",
     "next": "14.2.23",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "18.3.1",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@opennextjs/cloudflare": "1.0.0-beta.3",
@@ -26,7 +30,7 @@
     "eslint": "8.56.0",
     "eslint-config-next": "14.2.5",
     "postcss": "8.5.3",
-    "tailwindcss": "3.4.17",
+    "tailwindcss": "^3.4.17",
     "typescript": "5.8.3",
     "wrangler": "4.12.0"
   },
